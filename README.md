@@ -310,7 +310,7 @@ g++ -o src/main.exe src/main.cpp src/auth/*.cpp src/admin/*.cpp src/user/*.cpp s
 This project welcomes contributions from developers interested in **human-AI collaborative development**!
 
 ### 🌟 Ways to Contribute
-1. Fork the repository from [hanan-bhatti/transitflow](https://github.com/hanan-bhatti/transitflow)
+1. Fork the repository from [hanan-bhatti/transitflow](https://github.com/hanan-bhatti/transitflow-cli)
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Implement your changes (with or without AI assistance)
 4. Document your development process and any AI tools used
@@ -377,7 +377,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - **🌐 Live Application**: [transitflow.up.railway.app](https://transitflow.up.railway.app)
-- **📁 Source Code**: [github.com/hanan-bhatti/transitflow](https://github.com/hanan-bhatti/transitflow)
+- **📁 Source Code**: [github.com/hanan-bhatti/transitflow](https://github.com/hanan-bhatti/transitflow-cli)
 - **📧 Contact**: hannanbhatti2006@gmail.com
 
 ## 🙏 Acknowledgments
