@@ -16,13 +16,16 @@ using namespace std;
 const int MAX_TRANSPORTS = 100;
 
 User userLogin() {
+    clearScreen();
     User user;
+    
     string email = getEmail();
     user = getUserByEmail(email);
 
     if (user.email.empty()) {
         showToast("User not found!", 15, 4);
-        return user;
+        writeLog("Login failed: user not found - " + email);
+        return User{}; // return invalid user
     }
 
     string password = getPassword();
@@ -35,9 +38,8 @@ User userLogin() {
     }
 
     showToast("Incorrect password!", 15, 4);
-    user.email = ""; // indicates failure
-    writeLog("Failed login attempt: " + email);
-    return user;
+    writeLog("Login failed: incorrect password - " + email);
+    return User{}; // return invalid user
 }
 
 User signUp() {
@@ -46,8 +48,11 @@ User signUp() {
     string email = getEmail();
     if (isUserExsists(email)) {
         showToast("Email already registered!", 15, 4);
+        slideText("Try logging instead: showing you login menu..", 0, 2);
+        pauseConsole();
         writeLog("Failed registration attempt: " + email);
-        return newUser; // empty user
+        clearScreen();
+        return userLogin();
     }
 
     string username = getUsername();

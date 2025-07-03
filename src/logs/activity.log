@@ -17,3 +17,129 @@
 [2025-07-03 08:21:21 PM] [System] Admin login was succesfull
 [2025-07-03 08:21:21 PM] [System] Admin logged in successfully
 [2025-07-03 08:21:21 PM] [System] admin panel accessed
+[2025-07-03 11:07:26 PM] [System] TransitFlow system started
+[2025-07-03 11:07:37 PM] [System] got a valid mail
+[2025-07-03 11:07:45 PM] [System] user viewed password
+[2025-07-03 11:07:45 PM] [System] user viewed password
+[2025-07-03 11:07:46 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-03 11:07:46 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-03 11:07:48 PM] [System] Toast message shown : Admin login successful!
+[2025-07-03 11:07:48 PM] [System] Admin login was succesfull
+[2025-07-03 11:07:48 PM] [System] Admin logged in successfully
+[2025-07-03 11:07:48 PM] [System] admin panel accessed
+[2025-07-03 11:08:06 PM] [Admin] Viewed all transport services
+[2025-07-03 11:08:17 PM] [System] Toast message shown : Logging out...
+[2025-07-03 11:08:17 PM] [System] someone trying to login as Admin
+[2025-07-03 11:08:27 PM] [System] Toast error message shown: Invalid email format. Please enter a valid email.
+[2025-07-03 11:08:34 PM] [System] got a valid mail
+[2025-07-03 11:08:35 PM] [System] Toast error message shown: Email already registered!
+[2025-07-03 11:08:35 PM] [System] Failed registration attempt: hanan@gmail.com
+[2025-07-03 11:08:35 PM] [System] User dashboard accessed by: 
+[2025-07-03 11:08:37 PM] [System] Toast message shown : Welcome, !
+[2025-07-03 11:08:56 PM] [System]  searched for transport: o-l
+[2025-07-03 11:08:56 PM] [System] Transport found: O-l  | City Center to Airport | 06:00 AM - 10:00 PM | Medium Crowd for user: 
+[2025-07-03 11:09:18 PM] [System] Toast message shown : Thank you for your feedback!
+[2025-07-03 11:09:18 PM] [System] User  provided feedback: new feedback for testing
+[2025-07-03 11:09:27 PM] [System] Toast message shown : Logout successfully
+[2025-07-03 11:09:27 PM] [System] Admin tried to signup
+[2025-07-03 11:09:27 PM] [System] someone trying to login as User
+[2025-07-03 11:09:38 PM] [System] got a valid mail
+[2025-07-03 11:09:38 PM] [System] User found by email: hanan@gmail.com - Username: hanan
+[2025-07-03 11:09:41 PM] [System] converted user input 123451bRi5F to hash 699b2f96c066a17c
+[2025-07-03 11:09:43 PM] [System] Toast error message shown: Incorrect password!
+[2025-07-03 11:09:43 PM] [System] Failed login attempt: hanan@gmail.com
+[2025-07-03 11:09:43 PM] [System] someone trying to login as User
+[2025-07-03 11:09:49 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-03 11:17:37 PM] [System] TransitFlow system started
+[2025-07-03 11:17:41 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-03 11:17:44 PM] [System] TransitFlow system started
+[2025-07-03 11:17:59 PM] [System] got a valid mail
+[2025-07-03 11:18:00 PM] [System] Toast error message shown: Email already registered!
+[2025-07-03 11:18:00 PM] [System] Failed registration attempt: hanan@gmail.com
+[2025-07-03 11:18:00 PM] [System] User dashboard accessed by: 
+[2025-07-03 11:18:02 PM] [System] Toast message shown : Welcome, !
+[2025-07-03 11:21:12 PM] [System] Toast message shown : Logout successfully
+[2025-07-03 11:21:12 PM] [System] Admin tried to signup
+[2025-07-03 11:21:12 PM] [System] someone trying to login as User
+[2025-07-03 11:21:16 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-03 11:21:28 PM] [System] TransitFlow system started
+[2025-07-03 11:21:40 PM] [System] got a valid mail
+[2025-07-03 11:21:42 PM] [System] Toast error message shown: Email already registered!
+[2025-07-03 11:21:42 PM] [System] Failed registration attempt: hanan@gmail.com
+[2025-07-03 11:23:15 PM] [System] Toast error message shown: Invalid email format. Please enter a valid email.
+[2025-07-03 11:23:35 PM] [System] TransitFlow system started
+[2025-07-03 11:23:39 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-03 11:23:40 PM] [System] TransitFlow system started
+[2025-07-03 11:23:52 PM] [System] got a valid mail
+[2025-07-03 11:23:53 PM] [System] Toast error message shown: Email already registered!
+[2025-07-03 11:24:00 PM] [System] Failed registration attempt: hanan@gmail.com
+[2025-07-03 11:26:22 PM] [System] got a valid mail
+[2025-07-03 11:26:22 PM] [System] User found by email: hanan@gmail.com - Username: hanan
+[2025-07-03 11:26:25 PM] [System] converted user input 123451bRi5F to hash 699b2f96c066a17c
+[2025-07-03 11:26:27 PM] [System] Toast error message shown: Incorrect password!
+[2025-07-03 11:26:27 PM] [System] Failed login attempt: hanan@gmail.com
+[2025-07-03 11:26:27 PM] [System] get username was called
+[2025-07-03 11:26:29 PM] [System] user entered username: hanan@gmail.com
+[2025-07-03 11:26:42 PM] [System] Generated saltSevo!%
+[2025-07-03 11:26:42 PM] [System] converted user input 12345Sevo!% to hash 699b2f96fa998a4c
+[2025-07-03 11:26:42 PM] [System] User saved: hanan@gmail.com | hanan@gmail.com
+[2025-07-03 11:26:44 PM] [System] Toast message shown : Registered successfully!
+[2025-07-03 11:26:44 PM] [System] User registered: hanan@gmail.com
+[2025-07-03 11:26:44 PM] [System] User dashboard accessed by: hanan@gmail.com
+[2025-07-03 11:26:45 PM] [System] Toast message shown : Welcome, hanan@gmail.com!
+[2025-07-03 11:26:54 PM] [System] Toast message shown : Logout successfully
+[2025-07-03 11:26:54 PM] [System] Admin tried to signup
+[2025-07-03 11:26:54 PM] [System] someone trying to login as User
+[2025-07-03 11:26:59 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-03 11:28:03 PM] [System] TransitFlow system started
+[2025-07-03 11:28:12 PM] [System] got a valid mail
+[2025-07-03 11:28:13 PM] [System] Toast error message shown: Email already registered!
+[2025-07-03 11:28:16 PM] [System] Failed registration attempt: hanan@gmail.com
+[2025-07-03 11:28:22 PM] [System] got a valid mail
+[2025-07-03 11:28:22 PM] [System] User found by email: hanan@gmail.com - Username: hanan
+[2025-07-03 11:28:26 PM] [System] converted user input 123451bRi5F to hash 699b2f96c066a17c
+[2025-07-03 11:28:27 PM] [System] Toast error message shown: Incorrect password!
+[2025-07-03 11:28:27 PM] [System] Failed login attempt: hanan@gmail.com
+[2025-07-03 11:28:27 PM] [System] User dashboard accessed by: 
+[2025-07-03 11:28:29 PM] [System] Toast message shown : Welcome, !
+[2025-07-03 11:28:41 PM] [System]  searched for transport: 
+[2025-07-03 11:28:41 PM] [System] Transport found: O-l  | City Center to Airport | 06:00 AM - 10:00 PM | Medium Crowd for user: 
+[2025-07-03 11:28:41 PM] [System] Transport found: Metro Bus | Eastside to Downtown | 05:30 AM - 11:30 PM | High Crowd for user: 
+[2025-07-03 11:28:41 PM] [System] Transport found: Speedo | North Terminal to South Park | 07:00 AM - 09:00 PM | Low Crowd for user: 
+[2025-07-03 11:28:41 PM] [System] Transport found: Ev Bus            |Thokar to Canal             |6:00 AM to &:00 PM                      |Medium crowd for user: 
+[2025-07-03 11:28:46 PM] [System] Toast message shown : Logout successfully
+[2025-07-03 11:28:46 PM] [System] Admin tried to signup
+[2025-07-03 11:28:46 PM] [System] someone trying to login as User
+[2025-07-03 11:28:55 PM] [System] got a valid mail
+[2025-07-03 11:28:55 PM] [System] User found by email: hanan@gmail.com - Username: hanan
+[2025-07-03 11:28:57 PM] [System] converted user input 12341bRi5F to hash 3d368dec1e81b7fd
+[2025-07-03 11:28:59 PM] [System] Toast error message shown: Incorrect password!
+[2025-07-03 11:28:59 PM] [System] Failed login attempt: hanan@gmail.com
+[2025-07-03 11:28:59 PM] [System] someone trying to login as User
+[2025-07-03 11:29:27 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-03 11:30:20 PM] [System] TransitFlow system started
+[2025-07-03 11:30:27 PM] [System] got a valid mail
+[2025-07-03 11:30:29 PM] [System] Toast error message shown: Email already registered!
+[2025-07-03 11:30:33 PM] [System] Failed registration attempt: hanan@gmail.com
+[2025-07-03 11:30:34 PM] [System] got a valid mail
+[2025-07-03 11:30:34 PM] [System] User found by email: hanan@gmail.com - Username: hanan
+[2025-07-03 11:30:38 PM] [System] converted user input 12341bRi5F to hash 3d368dec1e81b7fd
+[2025-07-03 11:30:39 PM] [System] Toast error message shown: Incorrect password!
+[2025-07-03 11:30:39 PM] [System] Failed login attempt: hanan@gmail.com
+[2025-07-03 11:30:39 PM] [System] User dashboard accessed by: 
+[2025-07-03 11:30:41 PM] [System] Toast message shown : Welcome, hanan!
+[2025-07-03 11:30:51 PM] [System] Toast message shown : Logout successfully
+[2025-07-03 11:30:51 PM] [System] Admin tried to signup
+[2025-07-03 11:30:51 PM] [System] someone trying to login as User
+[2025-07-03 11:30:57 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-03 11:38:16 PM] [System] TransitFlow system started
+[2025-07-03 11:38:21 PM] [System] got a valid mail
+[2025-07-03 11:38:22 PM] [System] Toast error message shown: Email already registered!
+[2025-07-03 11:38:24 PM] [System] Failed registration attempt: hanan@gmail.com
+[2025-07-03 11:38:26 PM] [System] got a valid mail
+[2025-07-03 11:38:26 PM] [System] User found by email: hanan@gmail.com - Username: hanan
+[2025-07-03 11:38:28 PM] [System] converted user input 1231bRi5F to hash 1f980730235daf0
+[2025-07-03 11:38:29 PM] [System] Toast error message shown: Incorrect password!
+[2025-07-03 11:38:29 PM] [System] Login failed: incorrect password - hanan@gmail.com
+[2025-07-03 11:38:29 PM] [System] User dashboard accessed by: 
+[2025-07-03 11:38:31 PM] [System] Toast message shown : Welcome, !
