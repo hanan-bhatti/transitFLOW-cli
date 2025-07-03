@@ -118,7 +118,7 @@ void userDashboard(const User &user)
         string slideMessage = "You are logged in as " + user.username + ". Enjoy your journey!\n"
                               "With email: " + user.email + "\n"
                               "With TransitFlow, you can easily manage your transport needs.\n"
-                              "Use the menu to navigate through the options. (Use ↑ and ↓ arrow keys)";
+                              "Use the menu to navigate through the options. (Use up and down arrow keys)";
         slideText(slideMessage, 0, 11);
         printLine('=', 75);
         cout << "\n\n";

@@ -162,3 +162,21 @@
 [2025-07-03 11:48:54 PM] [System] someone trying to login as User
 [2025-07-03 11:48:59 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
 [2025-07-03 11:48:59 PM] [System] User exited the sysrem
+[2025-07-04 12:23:05 AM] [System] TransitFlow system started
+[2025-07-04 12:23:35 AM] [System] got a valid mail
+[2025-07-04 12:23:35 AM] [System] User found by email: hanan@gmail.com - Username: hanan
+[2025-07-04 12:23:38 AM] [System] converted user input 123451bRi5F to hash 699b2f96c066a17c
+[2025-07-04 12:23:39 AM] [System] Toast error message shown: Incorrect password!
+[2025-07-04 12:23:39 AM] [System] Login failed: incorrect password - hanan@gmail.com
+[2025-07-04 12:23:39 AM] [System] someone trying to login as User
+[2025-07-04 12:23:56 AM] [System] got a valid mail
+[2025-07-04 12:23:56 AM] [System] User not found: test@12.com
+[2025-07-04 12:23:56 AM] [System] get username was called
+[2025-07-04 12:23:59 AM] [System] user entered username: 123
+[2025-07-04 12:24:02 AM] [System] Generated salt*EFJ!H
+[2025-07-04 12:24:02 AM] [System] converted user input 123*EFJ!H to hash 1f9807365fb0665
+[2025-07-04 12:24:02 AM] [System] User saved: 123 | test@12.com
+[2025-07-04 12:24:04 AM] [System] Toast message shown : Registered successfully!
+[2025-07-04 12:24:04 AM] [System] User registered: test@12.com
+[2025-07-04 12:24:04 AM] [System] User dashboard accessed by: test@12.com
+[2025-07-04 12:24:05 AM] [System] Toast message shown : Welcome, 123!
