@@ -4,7 +4,7 @@ echo "🚀 Building TransitFlow Terminal App..."
 
 # Set source and output
 SRC_DIR="src"
-OUTPUT="$SRC_DIR/main.exe"
+OUTPUT="$SRC_DIR/TransitFLOW.exe"
 
 # Collect all .cpp files recursively inside src/
 CPP_FILES=$(find $SRC_DIR -name "*.cpp")
