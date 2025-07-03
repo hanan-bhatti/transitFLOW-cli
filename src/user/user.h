@@ -21,6 +21,7 @@ User signUp();
 // utility functions
 int parseTimeToMinutes(const string& time);
 int crowdValue(const string &crowd);
+bool isValidUser(const User& user);
 
 //  Main Dashboard
 void userDashboard(const User& user);

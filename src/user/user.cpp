@@ -15,6 +15,10 @@ using namespace std;
 
 const int MAX_TRANSPORTS = 100;
 
+bool isValidUser(const User& user) {
+    return !user.email.empty() && !user.hashedPassword.empty();
+}
+
 User userLogin() {
     clearScreen();
     User user;
@@ -74,23 +78,20 @@ User signUp() {
 
 
 void userDashboard(const User &user)
-{   
+{
+    if (!isValidUser(user)) {
+        slideText("Authentication failed. Please try again.", 15, 4);
+        writeLog("Authentication failed or user data is empty");
+        pauseConsole();
+        return;
+    }
+
     writeLog("User dashboard accessed by: " + user.email);
     clearScreen();
+
     string welcomeMessage = "Welcome, " + user.username + "!";
     showToast(welcomeMessage, 0, 2);
-    while(true) {
-    clearScreen();
-    gotoxy(0, 1);
-    printTitleFor("User");
-    printLine('=', 75);
-    string slideMessage = "You are logged in as " + user.username + ". Enjoy your journey! \n"
-                            "With email: " + user.email + "\n"
-                            "With TransitFlow, you can easily manage your transport needs.\n"
-                            "Use the menu to navigate through the options.(use up and down arr keys)";
-    slideText(slideMessage, 0, 11);
-    printLine('=', 75);
-    cout << "\n\n";
+
     string options[] = {
         "Search Transport",
         "View Schedule",
@@ -106,36 +107,49 @@ void userDashboard(const User &user)
         "View Ticket Fare",
         "Provide Feedback",
         "Save Favorite Routes",
-        "logout"};
+        "Logout"};
 
-    while (true)
-    {
+    while (true) {
+        clearScreen();
+        gotoxy(0, 1);
+        printTitleFor("User");
+        printLine('=', 75);
+
+        string slideMessage = "You are logged in as " + user.username + ". Enjoy your journey!\n"
+                              "With email: " + user.email + "\n"
+                              "With TransitFlow, you can easily manage your transport needs.\n"
+                              "Use the menu to navigate through the options. (Use ↑ and ↓ arrow keys)";
+        slideText(slideMessage, 0, 11);
+        printLine('=', 75);
+        cout << "\n\n";
+
         int choice = arrowMenu(options, 15, 10, 18);
-        switch (choice)
-        {
-        case 0: searchTransport(user); break;
-        case 1: viewSchedule(user); break;
-        case 2: sortRoutesByArrival(user); break;
-        case 3: sortRoutesByCrowd(user); break;
-        case 4: getAlternateRoutes(user); break;
-        case 5: viewLiveUpdates(user); break;
-        case 6: viewAvailableSeats(user); break;
-        case 7: checkPeakHourAlerts(user); break;
-        case 8: reportTransportIssue(user); break;
-        case 9: requestSpecialServices(user); break;
-        case 10: getEmergencyHelp(user); break;
-        case 11: viewTicketFare(user); break;
-        case 12: provideFeedback(user); break;
-        case 13: saveFavoriteRoutes(user); break;
-        case 14: showToast("Logout successfully", 15, 0); return;
-        default:
-            showToast("Invalid Choice.", 15, 4);
-            cout << "Invalid choice. Please try again." << endl;
-            break;
+        switch (choice) {
+            case 0:  searchTransport(user); break;
+            case 1:  viewSchedule(user); break;
+            case 2:  sortRoutesByArrival(user); break;
+            case 3:  sortRoutesByCrowd(user); break;
+            case 4:  getAlternateRoutes(user); break;
+            case 5:  viewLiveUpdates(user); break;
+            case 6:  viewAvailableSeats(user); break;
+            case 7:  checkPeakHourAlerts(user); break;
+            case 8:  reportTransportIssue(user); break;
+            case 9:  requestSpecialServices(user); break;
+            case 10: getEmergencyHelp(user); break;
+            case 11: viewTicketFare(user); break;
+            case 12: provideFeedback(user); break;
+            case 13: saveFavoriteRoutes(user); break;
+            case 14:
+                showToast("Logout successfully", 15, 0);
+                writeLog("User logged out: " + user.email, user.username);
+                return;
+            default:
+                showToast("Invalid choice.", 15, 4);
+                break;
         }
     }
-    }
 }
+
 
 void searchTransport(const User& user) {
     string name, line;

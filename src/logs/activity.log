@@ -143,3 +143,22 @@
 [2025-07-03 11:38:29 PM] [System] Login failed: incorrect password - hanan@gmail.com
 [2025-07-03 11:38:29 PM] [System] User dashboard accessed by: 
 [2025-07-03 11:38:31 PM] [System] Toast message shown : Welcome, !
+[2025-07-03 11:48:03 PM] [System] Toast message shown : Logout successfully
+[2025-07-03 11:48:03 PM] [System] Admin tried to signup
+[2025-07-03 11:48:03 PM] [System] someone trying to login as User
+[2025-07-03 11:48:07 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-03 11:48:07 PM] [System] User exited the sysrem
+[2025-07-03 11:48:32 PM] [System] TransitFlow system started
+[2025-07-03 11:48:38 PM] [System] got a valid mail
+[2025-07-03 11:48:39 PM] [System] Toast error message shown: Email already registered!
+[2025-07-03 11:48:44 PM] [System] Failed registration attempt: hanan@gmail.com
+[2025-07-03 11:48:46 PM] [System] got a valid mail
+[2025-07-03 11:48:46 PM] [System] User found by email: hanan@gmail.com - Username: hanan
+[2025-07-03 11:48:48 PM] [System] converted user input 1231bRi5F to hash 1f980730235daf0
+[2025-07-03 11:48:50 PM] [System] Toast error message shown: Incorrect password!
+[2025-07-03 11:48:50 PM] [System] Login failed: incorrect password - hanan@gmail.com
+[2025-07-03 11:48:50 PM] [System] Authentication failed or user data is empty
+[2025-07-03 11:48:54 PM] [System] Admin tried to signup
+[2025-07-03 11:48:54 PM] [System] someone trying to login as User
+[2025-07-03 11:48:59 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-03 11:48:59 PM] [System] User exited the sysrem
