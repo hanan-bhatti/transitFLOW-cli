@@ -20,7 +20,7 @@ bool adminLogin() {
 
     if (email != "hanan@transitflow.com") {
         showToast("Not authorized as Admin!", 15, 4);
-        writeLog(email + "tried to accesed admin panel");
+        writeLog(email + " tried to access admin panel without authorization", "Admin");
         return false;
     }
 
@@ -36,7 +36,7 @@ bool adminLogin() {
     }
 
     showToast("Incorrect admin password!", 15, 4);
-    writeLog("someone trying to access admin with wrong password");
+    writeLog("someone trying to access admin with wrong password " + email + "  ", "Admin");
     return false;
 }
 
@@ -270,6 +270,8 @@ void deleteTransportEntry() {
 
 void viewAllTransportServices() {
     ifstream find("../src/data/transport_data.txt");
+    clearScreen();
+    gotoxy(0, 1);
     if (!find.is_open()) {
         showToast("Failed to open transport data file!", 15, 4);
         writeLog("Failed to open transport data file for viewing all services", "Admin");
@@ -564,6 +566,8 @@ void adjustFarePrices() {
 }
 
 // Admin Tools
+#include <algorithm>  // for transform
+
 void viewLogs() {
     clearScreen();
     gotoxy(0, 1);
@@ -580,9 +584,31 @@ void viewLogs() {
     bool isEmpty = true;
 
     while (getline(logs, line)) {
+        // Convert line to lowercase for case-insensitive search
+        string lowerLine = line;
+        transform(lowerLine.begin(), lowerLine.end(), lowerLine.begin(), ::tolower);
+
+        // Check error keywords
+        bool hasErrorKeyword = (lowerLine.find("error") != string::npos) ||
+                               (lowerLine.find("failed") != string::npos) ||
+                               (lowerLine.find("failure") != string::npos) ||
+                               (lowerLine.find("exception") != string::npos);
+
+        if (hasErrorKeyword) {
+            setColor(12);  // Light Red for errors
+        } else if (line.find("[Admin]") != string::npos) {
+            setColor(9);   // Light Blue for Admin logs
+        } else if (line.find("[System]") != string::npos) {
+            setColor(14);  // Light Yellow for System logs (changed from red to yellow for distinction)
+        } else {
+            setColor(7);   // Default White for others (User)
+        }
+
         cout << line << endl;
         isEmpty = false;
     }
+
+    setColor(7); // Reset to white after printing all logs
 
     if (isEmpty) {
         showToast("No activity logs to show.", 14, 4);

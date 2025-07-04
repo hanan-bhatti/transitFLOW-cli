@@ -195,6 +195,7 @@ void searchTransport(const User& user) {
 void viewSchedule(const User& user) {
     writeLog("User " + user.username + " viewed transport schedule.");
     clearScreen();
+    gotoxy(0, 1);
     ifstream find("../src/data/transport_data.txt");
     if (!find.is_open()) {
         showToast("Failed to open transport data file!", 15, 4);
@@ -295,6 +296,7 @@ void sortRoutesByArrival(const User& user) {
 
     // Print table
     clearScreen();
+    gotoxy(0, 1);
     printLine('-', 100);
     cout << left
          << setw(18) << "Name" << "| "
@@ -371,6 +373,8 @@ void sortRoutesByCrowd(const User& user) {
 
     // Print sorted table
     clearScreen();
+    gotoxy(0, 1);
+    writeLog("User " + user.username + " viewing sorted transport routes by crowd level.");
     printLine('-', 100);
     cout << left
          << setw(18) << "Name" << "| "
@@ -411,6 +415,7 @@ void getAlternateRoutes(const User& user) {
     string line;
 
     clearScreen();
+    gotoxy(0, 1);
     printLine('-', 100);
     cout << left
          << setw(18) << "Name" << "| "
@@ -525,6 +530,7 @@ void requestSpecialServices(const User& user) {
         "Pregnancy Seat Reservation"
     };
     clearScreen();
+    gotoxy(0, 1);
     printBoxed("REQUEST SPECIAL SERVICES");
     int choice = arrowMenu(options, 4, 10, 8);
     string selected = options[choice];
@@ -546,47 +552,86 @@ void requestSpecialServices(const User& user) {
 
 void getEmergencyHelp(const User& user) {
     clearScreen();
+    gotoxy(0, 1);
+
+    setColor(12);  // Light Red for header
     printBoxed(" EMERGENCY CONTACT & SAFETY");
 
-    cout << "\n Emergency Helpline: 1122\n";
+    cout << "\n";
+
+    setColor(14);  // Light Yellow for emergency numbers (important info)
+    cout << " Emergency Helpline: 1122\n";
+
+    setColor(9);   // Light Blue for police
     cout << " Police: 15\n";
+
+    setColor(10);  // Light Green for ambulance
     cout << " Ambulance: 115\n";
 
-    cout << "\n Safety Tips:\n";
+    cout << "\n";
+
+    setColor(7);   // White for safety tips heading
+    cout << " Safety Tips:\n";
+
+    setColor(15);  // Bright White for safety instructions
     cout << "Avoid standing near bus edges.\n";
     cout << "Stay alert during boarding.\n";
     cout << "Report suspicious activities.\n";
     cout << "Use footpaths and safe zones.\n";
-    cout << "\n For emergencies, call 1122 or 15 immediately.\n";
+
+    cout << "\n";
+
+    setColor(14);  // Light Yellow for emergency call reminder
+    cout << " For emergencies, call 1122 or 15 immediately.\n";
 
     writeLog("User " + user.username + " accessed emergency contact information.");
-    pauseConsole();
 
+    setColor(7);   // Reset to white
+    pauseConsole();
 }
 
 //  Fare & Feedback
 void viewTicketFare(const User& user) {
     clearScreen();
+    gotoxy(0, 1);
+    setColor(9);  // Light Blue for header
     printBoxed("TICKET FARE INFORMATION");
 
     cout << "\nFixed Fare Services:\n";
+
+    setColor(12);  // Red
     cout << "Speedo Bus: PKR 25\n";
     cout << "Metro: PKR 30\n";
+
+    setColor(10);  // Green
     cout << "EV Shuttle: PKR 30\n";
 
-    cout << "\n Orange Line Fare (Based on Stations):\n";
+    cout << "\n";
+
+    setColor(14);  // Yellow (closest to orange)
+    cout << "Orange Line Fare (Based on Stations):\n";
+
+    setColor(7);   // Reset to white/gray for fares
     cout << "1 - 4 stations: PKR 25\n";
     cout << "5 - 6 stations: PKR 30\n";
     cout << "7 - 8 stations: PKR 35\n";
     cout << "9 - 10 stations: PKR 40\n";
     cout << "11 or more stations: PKR 45 (max)\n";
-    cout << "\nFor more details, visit our website (https://transitflow.up.railway.app) or contact customer support.\n";
+
+    cout << "\nFor more details, visit our website ";
+
+    setColorwithBackGround(0, 3);
+    cout << "https://transitflow.up.railway.app";
+
+    setColor(7);  // Reset to white
+
+    cout << " or contact customer support.\n";
+
     writeLog("User " + user.username + " viewed ticket fare information.");
+
+    setColor(7);  // Reset to white
     pauseConsole();
-
 }
-
-
 
 void provideFeedback(const User& user) {
     string feedback;

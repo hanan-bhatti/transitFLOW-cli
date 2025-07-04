@@ -239,3 +239,111 @@
 [2025-07-04 02:46:06 AM] [System] Toast message shown : Logout successfully
 [2025-07-04 02:46:06 AM] [123] User logged out: test@12.com
 [2025-07-04 02:46:06 AM] [System] someone trying to login as User
+[2025-07-04 01:08:40 PM] [System] TransitFlow system started
+[2025-07-04 01:09:07 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 01:09:14 PM] [System] TransitFlow system started
+[2025-07-04 01:09:23 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 01:09:23 PM] [System] User exited the sysrem
+[2025-07-04 01:09:24 PM] [System] TransitFlow system started
+[2025-07-04 01:09:29 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 01:09:32 PM] [System] TransitFlow system started
+[2025-07-04 01:09:44 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 01:09:44 PM] [System] User exited the sysrem
+[2025-07-04 01:09:45 PM] [System] TransitFlow system started
+[2025-07-04 01:09:59 PM] [System] got a valid mail
+[2025-07-04 01:10:02 PM] [System] user viewed password
+[2025-07-04 01:10:02 PM] [System] user viewed password
+[2025-07-04 01:10:05 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 01:10:05 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 01:10:06 PM] [System] Toast message shown : Admin login successful!
+[2025-07-04 01:10:06 PM] [System] Admin login was succesfull
+[2025-07-04 01:10:06 PM] [System] Admin logged in successfully
+[2025-07-04 01:10:06 PM] [System] admin panel accessed
+[2025-07-04 01:10:28 PM] [Admin] Complaints viewed
+[2025-07-04 01:10:37 PM] [Admin] Viewed all transport services
+[2025-07-04 01:11:33 PM] [System] Toast message shown : Logging out...
+[2025-07-04 01:11:33 PM] [System] someone trying to login as Admin
+[2025-07-04 01:11:38 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 01:46:22 PM] [System] TransitFlow system started
+[2025-07-04 01:46:31 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 01:46:31 PM] [System] User exited the sysrem
+[2025-07-04 01:46:32 PM] [System] TransitFlow system started
+[2025-07-04 01:46:36 PM] [System] got a valid mail
+[2025-07-04 01:46:41 PM] [System] user viewed password
+[2025-07-04 01:46:41 PM] [System] user viewed password
+[2025-07-04 01:46:42 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 01:46:42 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 01:46:43 PM] [System] Toast message shown : Admin login successful!
+[2025-07-04 01:46:43 PM] [System] Admin login was succesfull
+[2025-07-04 01:46:43 PM] [System] Admin logged in successfully
+[2025-07-04 01:46:43 PM] [System] admin panel accessed
+[2025-07-04 01:46:46 PM] [Admin] Viewed all transport services
+[2025-07-04 01:46:57 PM] [System] Toast message shown : Logging out...
+[2025-07-04 01:46:57 PM] [System] someone trying to login as Admin
+[2025-07-04 01:47:01 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 01:49:33 PM] [System] TransitFlow system started
+[2025-07-04 01:49:47 PM] [System] got a valid mail
+[2025-07-04 01:49:51 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 01:49:51 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 01:49:52 PM] [System] Toast message shown : Admin login successful!
+[2025-07-04 01:49:52 PM] [System] Admin login was succesfull
+[2025-07-04 01:49:52 PM] [System] Admin logged in successfully
+[2025-07-04 01:49:52 PM] [System] admin panel accessed
+[2025-07-04 01:49:55 PM] [Admin] Viewed all transport services
+[2025-07-04 01:50:02 PM] [Admin] Sorted transport services by peak hours
+[2025-07-04 01:50:08 PM] [System] Toast message shown : No route adjustments needed currently!
+[2025-07-04 01:50:08 PM] [Admin] Route adjustment recommendations viewed
+[2025-07-04 01:50:19 PM] [System] Toast message shown : No route adjustments needed currently!
+[2025-07-04 01:50:19 PM] [Admin] Route adjustment recommendations viewed
+[2025-07-04 01:50:27 PM] [System] Toast error message shown: comming soon
+[2025-07-04 01:50:27 PM] [Admin] Attempted to view transport history and past modifications
+[2025-07-04 01:51:05 PM] [System] Toast message shown : Logging out...
+[2025-07-04 01:51:05 PM] [System] someone trying to login as Admin
+[2025-07-04 01:51:09 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 02:02:34 PM] [System] TransitFlow system started
+[2025-07-04 02:03:00 PM] [System] got a valid mail
+[2025-07-04 02:03:04 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 02:03:04 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 02:03:05 PM] [System] Toast message shown : Admin login successful!
+[2025-07-04 02:03:05 PM] [System] Admin login was succesfull
+[2025-07-04 02:03:05 PM] [System] Admin logged in successfully
+[2025-07-04 02:03:05 PM] [System] admin panel accessed
+[2025-07-04 02:03:33 PM] [System] Toast message shown : Logging out...
+[2025-07-04 02:03:33 PM] [System] someone trying to login as Admin
+[2025-07-04 02:04:09 PM] [System] got a valid mail
+[2025-07-04 02:04:09 PM] [System] User found by email: test@12.com - Username: 123
+[2025-07-04 02:04:10 PM] [System] converted user input 123*EFJ!H to hash 1f9807365fb0665
+[2025-07-04 02:04:12 PM] [System] Toast message shown : Login successful!
+[2025-07-04 02:04:12 PM] [System] User logged in: test@12.com
+[2025-07-04 02:04:12 PM] [System] User dashboard accessed by: test@12.com
+[2025-07-04 02:04:13 PM] [System] Toast message shown : Welcome, 123!
+[2025-07-04 02:04:20 PM] [System] User 123 accessed emergency contact information.
+[2025-07-04 02:04:37 PM] [System] User 123 viewed ticket fare information.
+[2025-07-04 02:07:55 PM] [System] Toast message shown : Logout successfully
+[2025-07-04 02:07:55 PM] [123] User logged out: test@12.com
+[2025-07-04 02:07:55 PM] [System] someone trying to login as User
+[2025-07-04 02:07:59 PM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 02:07:59 PM] [System] User exited the sysrem
+[2025-07-04 02:08:15 PM] [System] TransitFlow system started
+[2025-07-04 02:08:21 PM] [System] got a valid mail
+[2025-07-04 02:08:21 PM] [System] User found by email: test@12.com - Username: 123
+[2025-07-04 02:08:23 PM] [System] converted user input 123*EFJ!H to hash 1f9807365fb0665
+[2025-07-04 02:08:25 PM] [System] Toast message shown : Login successful!
+[2025-07-04 02:08:25 PM] [System] User logged in: test@12.com
+[2025-07-04 02:08:25 PM] [System] User dashboard accessed by: test@12.com
+[2025-07-04 02:08:26 PM] [System] Toast message shown : Welcome, 123!
+[2025-07-04 02:08:35 PM] [System] User 123 viewed ticket fare information.
+[2025-07-04 02:09:07 PM] [System] User 123 viewed transport schedule.
+[2025-07-04 02:09:23 PM] [System] 123 searched for transport: o-l
+[2025-07-04 02:09:23 PM] [System] Transport found: O-l  | City Center to Airport | 06:00 AM - 10:00 PM | Medium Crowd for user: 123
+[2025-07-04 02:09:33 PM] [System] Toast message shown : It's not peak hour right now.
+[2025-07-04 02:09:33 PM] [System] User 123 is not in peak hour traffic.
+[2025-07-04 02:09:41 PM] [System] User 123 accessed emergency contact information.
+[2025-07-04 02:13:47 PM] [System] TransitFlow system started
+[2025-07-04 02:14:05 PM] [System] got a valid mail
+[2025-07-04 02:14:09 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 02:14:09 PM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 02:14:10 PM] [System] Toast message shown : Admin login successful!
+[2025-07-04 02:14:10 PM] [System] Admin login was succesfull
+[2025-07-04 02:14:10 PM] [System] Admin logged in successfully
+[2025-07-04 02:14:10 PM] [System] admin panel accessed
