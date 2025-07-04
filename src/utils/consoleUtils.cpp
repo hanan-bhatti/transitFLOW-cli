@@ -93,7 +93,7 @@ void showToast(const string& message, int textColor, int bgColor) {
 }
 
 // Arrow Key Navigation
-int arrowMenu(const string options[], int size, int x, int y) {
+int arrowMenu(const string options[], int size, int x, int y, const int bgColor, const int color) {
     int selected = 0;
     const int ENTER = 13;
     const int UP = 72, DOWN = 80;
@@ -102,7 +102,7 @@ int arrowMenu(const string options[], int size, int x, int y) {
         for (int i = 0; i < size; i++) {
             gotoxy(x, y + i);
             if (i == selected) {
-                setColorwithBackGround(0, 11);
+                setColorwithBackGround(bgColor, color);
                 cout << " > " << options[i] << " ";
                 setColorwithBackGround(7, 0);
             } else {

@@ -17,7 +17,7 @@ void printLine(char symbol, int length);
 void printBoxed(const std::string& text);
 void slideText(const std::string& text, int x, int y, int delayMs = 10);
 void showToast(const std::string& message, int textColor = 15, int bgColor = 4);
-int arrowMenu(const std::string options[], int size, int x = 10, int y = 5);
+int arrowMenu(const std::string options[], int size, int x = 10, int y = 5, const int bgColor = 0, const int color = 11);
 
 // utility function
 

@@ -180,3 +180,62 @@
 [2025-07-04 12:24:04 AM] [System] User registered: test@12.com
 [2025-07-04 12:24:04 AM] [System] User dashboard accessed by: test@12.com
 [2025-07-04 12:24:05 AM] [System] Toast message shown : Welcome, 123!
+[2025-07-04 12:35:48 AM] [System] Toast message shown : Logout successfully
+[2025-07-04 12:35:48 AM] [123] User logged out: test@12.com
+[2025-07-04 12:35:48 AM] [System] Admin tried to signup
+[2025-07-04 12:35:48 AM] [System] someone trying to login as User
+[2025-07-04 12:41:33 AM] [System] got a valid mail
+[2025-07-04 12:41:33 AM] [System] User found by email: test@12.com - Username: 123
+[2025-07-04 12:41:35 AM] [System] converted user input 123*EFJ!H to hash 1f9807365fb0665
+[2025-07-04 12:41:36 AM] [System] Toast message shown : Login successful!
+[2025-07-04 12:41:36 AM] [System] User logged in: test@12.com
+[2025-07-04 12:41:36 AM] [System] User dashboard accessed by: test@12.com
+[2025-07-04 12:41:38 AM] [System] Toast message shown : Welcome, 123!
+[2025-07-04 02:01:35 AM] [System] Toast message shown : Logout successfully
+[2025-07-04 02:01:35 AM] [123] User logged out: test@12.com
+[2025-07-04 02:01:35 AM] [System] someone trying to login as User
+[2025-07-04 02:33:07 AM] [System] got a valid mail
+[2025-07-04 02:33:11 AM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 02:33:11 AM] [System] converted user input hanan123Vtmjgd to hash 48393c7f6ebfd8e
+[2025-07-04 02:33:13 AM] [System] Toast message shown : Admin login successful!
+[2025-07-04 02:33:13 AM] [System] Admin login was succesfull
+[2025-07-04 02:33:13 AM] [System] Admin logged in successfully
+[2025-07-04 02:33:13 AM] [System] admin panel accessed
+[2025-07-04 02:39:29 AM] [System] Toast message shown : Logging out...
+[2025-07-04 02:39:29 AM] [System] someone trying to login as Admin
+[2025-07-04 02:39:33 AM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 02:39:49 AM] [System] TransitFlow system started
+[2025-07-04 02:39:57 AM] [System] got a valid mail
+[2025-07-04 02:39:57 AM] [System] User found by email: hanan@gmail.com - Username: hanan
+[2025-07-04 02:40:00 AM] [System] converted user input 123451bRi5F to hash 699b2f96c066a17c
+[2025-07-04 02:40:01 AM] [System] Toast error message shown: Incorrect password!
+[2025-07-04 02:40:01 AM] [System] Login failed: incorrect password - hanan@gmail.com
+[2025-07-04 02:40:01 AM] [System] someone trying to login as User
+[2025-07-04 02:40:12 AM] [System] got a valid mail
+[2025-07-04 02:40:12 AM] [System] User found by email: test@12.com - Username: 123
+[2025-07-04 02:40:14 AM] [System] converted user input 124*EFJ!H to hash 1f980732dcd85aa
+[2025-07-04 02:40:16 AM] [System] Toast error message shown: Incorrect password!
+[2025-07-04 02:40:16 AM] [System] Login failed: incorrect password - test@12.com
+[2025-07-04 02:40:16 AM] [System] someone trying to login as User
+[2025-07-04 02:40:20 AM] [System] got a valid mail
+[2025-07-04 02:40:20 AM] [System] User found by email: test@12.com - Username: 123
+[2025-07-04 02:40:22 AM] [System] converted user input 123*EFJ!H to hash 1f9807365fb0665
+[2025-07-04 02:40:23 AM] [System] Toast message shown : Login successful!
+[2025-07-04 02:40:23 AM] [System] User logged in: test@12.com
+[2025-07-04 02:40:23 AM] [System] User dashboard accessed by: test@12.com
+[2025-07-04 02:40:25 AM] [System] Toast message shown : Welcome, 123!
+[2025-07-04 02:44:45 AM] [System] Toast message shown : Logout successfully
+[2025-07-04 02:44:45 AM] [123] User logged out: test@12.com
+[2025-07-04 02:44:45 AM] [System] someone trying to login as User
+[2025-07-04 02:44:52 AM] [System] Toast message shown : Exiting TransitFlow. Goodbye!
+[2025-07-04 02:45:05 AM] [System] TransitFlow system started
+[2025-07-04 02:45:09 AM] [System] got a valid mail
+[2025-07-04 02:45:09 AM] [System] User found by email: test@12.com - Username: 123
+[2025-07-04 02:45:11 AM] [System] converted user input 123*EFJ!H to hash 1f9807365fb0665
+[2025-07-04 02:45:12 AM] [System] Toast message shown : Login successful!
+[2025-07-04 02:45:12 AM] [System] User logged in: test@12.com
+[2025-07-04 02:45:12 AM] [System] User dashboard accessed by: test@12.com
+[2025-07-04 02:45:14 AM] [System] Toast message shown : Welcome, 123!
+[2025-07-04 02:46:06 AM] [System] Toast message shown : Logout successfully
+[2025-07-04 02:46:06 AM] [123] User logged out: test@12.com
+[2025-07-04 02:46:06 AM] [System] someone trying to login as User

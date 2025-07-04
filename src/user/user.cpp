@@ -112,7 +112,9 @@ void userDashboard(const User &user)
     while (true) {
         clearScreen();
         gotoxy(0, 1);
+        setColor(9);
         printTitleFor("User");
+        setColor(15);
         printLine('=', 75);
 
         string slideMessage = "You are logged in as " + user.username + ". Enjoy your journey!\n"
@@ -123,7 +125,7 @@ void userDashboard(const User &user)
         printLine('=', 75);
         cout << "\n\n";
 
-        int choice = arrowMenu(options, 15, 10, 18);
+        int choice = arrowMenu(options, 15, 10, 18, 15, 9);
         switch (choice) {
             case 0:  searchTransport(user); break;
             case 1:  viewSchedule(user); break;
